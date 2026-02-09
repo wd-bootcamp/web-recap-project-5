@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest --watchAll",
-    "create-issues": "node scripts/create-issues.mjs"
+    "test": "jest --watchAll"
   },
   "dependencies": {
     "@octokit/rest": "^21.1.0",
