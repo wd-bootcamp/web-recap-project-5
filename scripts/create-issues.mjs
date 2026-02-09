@@ -1,6 +1,6 @@
 import dotenv from "dotenv";
 import { Octokit } from "@octokit/rest";
-
+import Bun from "bun";
 dotenv.config();
 
 const octokit = new Octokit({
@@ -60,7 +60,11 @@ async function fetchIssues() {
 
 async function main() {
   const issues = await fetchIssues();
+  console.log(issues);
   for (const issue of issues) {
+    await Bun.write(`${issue.title}.md`, issue.body);
+
+    continue;
     // Extract labels with their names and colors from the template issue
     const labels = issue.labels.map((label) => ({
       name: label.name,
