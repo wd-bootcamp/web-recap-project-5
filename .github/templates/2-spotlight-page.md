@@ -1,3 +1,5 @@
+# 2: Spotlight Page
+
 This page will serve as the app's homepage. A random art piece image, along with its artist’s name, will be displayed as a spotlight feature.
 
 ## Value Proposition

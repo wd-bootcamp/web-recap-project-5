@@ -1,3 +1,5 @@
+# 4: Art Piece Details Page
+
 When a user clicks on an art piece, they should see all detailed information about it, along with an option to navigate back to the list of art pieces.
 
 ## Value Proposition

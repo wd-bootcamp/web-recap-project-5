@@ -1,3 +1,5 @@
+# 10: Bonus - Testing Components
+
 As developers, we aim to avoid repetitive manual testing by automating component tests.
 
 ## Value Proposition

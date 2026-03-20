@@ -1,3 +1,5 @@
+# 9: Show Color Pallette
+
 To enrich the information displayed on the details page, we’ll add a color palette for each art piece.
 
 ## Value Proposition

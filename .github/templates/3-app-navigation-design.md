@@ -1,3 +1,5 @@
+# 3: App Navigation Design
+
 Since we have multiple pages, we want to enable smooth navigation between them. All pages should share a consistent layout.
 
 ## Value Proposition

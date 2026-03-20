@@ -1,4 +1,4 @@
-## Favorite Page
+# 5: Mark Art Pieces as Favorites
 
 The Favorite page will display a list of all favorite art pieces. Each art piece will show its image, artist’s name, title, and a favorite button.
 

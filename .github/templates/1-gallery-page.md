@@ -1,3 +1,5 @@
+# 1: Gallery Page
+
 The Gallery page will display a list of all art pieces. Each art piece's image, along with its artist’s name and title, will be shown.
 
 #### Value Proposition

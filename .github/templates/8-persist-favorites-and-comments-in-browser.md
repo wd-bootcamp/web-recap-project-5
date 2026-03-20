@@ -1,3 +1,5 @@
+# 8. Persist Favorites and Comments in Browser
+
 Currently, all data is saved using `useState`, meaning it’s lost upon page refresh. To improve the user experience, we want to persist data in local storage. Keep in mind that when there is no data in local storage, we’ll need to fetch everything from the API.
 
 ## Value Proposition

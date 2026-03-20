@@ -1,0 +1,26 @@
+name: create-issues
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/templates/**"
+  workflow_dispatch:
+
+jobs:
+  create-issues:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Run Issue Script
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const { default: script } = await import('${{ github.workspace }}/.github/scripts/create-issues.js')
+            await script({ github, context, core })

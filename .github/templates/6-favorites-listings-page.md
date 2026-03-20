@@ -1,4 +1,4 @@
-## 5. Favorite Page
+# 6. Favorite Page
 
 The Favorite page will display a list of all favorite art pieces. Each art piece will show its image, artist’s name, title, and a favorite button.
 
@@ -10,6 +10,7 @@ To achieve this, we’ll divide the tasks into two parts:
 2. Create the Favorite page.
 
 ## 5.2. Favorite Listing Page
+
 ## Value Proposition
 
 **As an** art enthusiast
