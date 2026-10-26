@@ -8,7 +8,12 @@ This template is designed to help you quickly start a new project with predefine
 
 ### Step 1: Use the Template
 
-Click on the "Use this template" button on the GitHub template repository page to create your new repository.
+Only **one person per group** creates the repository:
+
+1. Click on the "Use this template" button on the GitHub template repository page to create your new repository.
+2. Open the **"Issues"** tab of your new repository. After a short moment, 10 issues (the user stories) appear there: 8 core stories and 2 bonus stories.
+
+> 💡 Do not run the action twice: if the issues are already there, you are done with this step. Only if the "Issues" tab is still empty after a few minutes, open the **"Actions"** tab, select the workflow **create-issues** and click "Run workflow".
 
 ### Step 2: Create a GitHub Project Board
 
@@ -22,7 +27,7 @@ Click on the "Use this template" button on the GitHub template repository page t
 ### Step 3: Deploy to Vercel
 
 1. **Go to Vercel**: Visit [Vercel](https://vercel.com/) and sign up or log in.
-2. **Import your project**: Click on "New Project" and select your GitHub repository.
+2. **Import your project**: Click on "New Project" and select your GitHub repository. Vercel detects the Vite project automatically.
 
 ### Step 4: Add Team Members
 
@@ -52,6 +57,12 @@ To ensure smooth collaboration, you need to add your team members as collaborato
 - Ensure all members accept their invitations before starting the project to avoid access issues.
 
 ### Step 5: Start working and have fun. 🌈
+
+Every team member clones the repository to their local machine and installs the dependencies (Node.js 22.22 or newer is required):
+
+```bash
+npm i
+```
 
 Start the development server:
 

@@ -1,6 +1,6 @@
-# 9: Show Color Pallette
+# 8: Show Color Palette
 
-To enrich the information displayed on the details page, we’ll add a color palette for each art piece.
+To enrich the information displayed on the details page, we add a color palette for each art piece.
 
 ## Value Proposition
 
@@ -13,7 +13,7 @@ To enrich the information displayed on the details page, we’ll add a color pal
 ## Acceptance Criteria
 
 - [ ] The art piece detail page displays a list of all colors used in the image.
-- [ ] Colors are displayed visually, such as in circles or squares.
+- [ ] Colors are displayed visually, for example in circles or squares.
 
 ## Tasks
 
