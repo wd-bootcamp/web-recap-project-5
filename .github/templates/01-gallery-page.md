@@ -20,6 +20,7 @@ The Gallery page displays a list of all art pieces. Each art piece's image, alon
 
 ## Tasks
 
+- [ ] Define a type `ArtPiece` that describes one art piece of the API (see the example in the README), for example in a new file `src/types.ts`. Only type the properties you use.
 - [ ] Fetch the art pieces with `useSWR` and write a `fetcher` function that returns `ArtPiece[]`.
 - [ ] Display a loading and an error state.
 - [ ] Create a component to render the list of art pieces.
