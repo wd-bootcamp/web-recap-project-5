@@ -24,7 +24,7 @@ We fetch all necessary information about the art pieces from an API specifically
 https://example-apis.vercel.app/api/art
 ```
 
-An art piece looks like this. The type `ArtPiece` in `src/types.ts` describes it:
+An art piece looks like this. You will write a TypeScript type for it in the first user story:
 
 ```json
 {
@@ -45,7 +45,6 @@ The template is a [Vite](https://vite.dev/) project with React, TypeScript, [Rea
 
 - `src/index.tsx` wraps the app with `BrowserRouter`.
 - `src/App.tsx` is your starting point.
-- `src/types.ts` contains the type `ArtPiece`.
 - `src/styles.css` contains some basic styles. Feel free to change them.
 - `vercel.json` makes sure that URLs like `/art-pieces/the-harvesters` also work after deploying and reloading the page.
 

@@ -17,12 +17,12 @@ Since we have multiple pages, we want to enable smooth navigation between them. 
 - [ ] Clicking "Spotlight" shows the Spotlight page.
 - [ ] Clicking "Gallery" shows the Gallery page.
 - [ ] The link of the current page is visually highlighted.
+- [ ] Unknown URLs show a "Page not found" message.
 
 ## Tasks
 
 - [ ] Create a `Navigation` component that renders all navigation links.
 - [ ] Render the `Navigation` component only once, ensuring it appears on all pages.
-- [ ] Unknown URLs show a "Page not found" message.
 
 <details>
 <summary>Hint ✨</summary>

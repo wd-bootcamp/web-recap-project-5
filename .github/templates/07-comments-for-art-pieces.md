@@ -22,7 +22,7 @@ To enhance user engagement, we add a commenting feature that allows users to wri
 ## Tasks
 
 - [ ] Create a `Comments` component and a `CommentForm` component.
-- [ ] Type the comment, for example with `type Comment = { text: string; date: string }`.
+- [ ] Type the comment, for example with `type ArtPieceComment = { text: string; date: string }`.
 - [ ] Extend the information you store for each art piece with its comments.
 
 <details>
